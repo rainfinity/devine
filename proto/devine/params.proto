@@ -1,0 +1,12 @@
+syntax = "proto3";
+package rainfinity.devine.devine;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/rainfinity/devine/x/devine/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
